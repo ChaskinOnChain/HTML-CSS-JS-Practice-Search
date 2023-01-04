@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style-advanced.css" />
+    <title>Advanced Search</title>
+  </head>
+  <body>
+    <div class="heading">
+      <img
+        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        alt="Google Logo"
+      />
+      <div class="links">
+        <a href="index.html">Search</a>
+        <a href="google-images.html">Images</a>
+      </div>
+    </div>
+    <div class="container">
+      <p id="search">Advanced Search</p>
+      <div class="line"></div>
+      <p class="pages">Find Pages with...</p>
+      <form action="https://google.com/search">
+        <div class="row-input">
+          <div class="left">
+            <p class="label">all of these words:</p>
+          </div>
+          <div class="right">
+            <input type="text" name="as_q" />
+          </div>
+        </div>
+        <div class="row-input">
+          <div class="left">
+            <p class="label">this exact word or phrase</p>
+          </div>
+          <div class="right">
+            <input type="text" name="as_epq" />
+          </div>
+        </div>
+        <div class="row-input">
+          <div class="left">
+            <p class="label">any of these words:</p>
+          </div>
+          <div class="right">
+            <input type="text" name="as_oq" />
+          </div>
+        </div>
+        <div class="row-input">
+          <div class="left">
+            <p class="label">none of these words:</p>
+          </div>
+          <div class="right">
+            <input type="text" name="as_eq" />
+          </div>
+        </div>
+        <input id="btn" type="submit" value="Advanced Search" />
+      </form>
+    </div>
+  </body>
+</html>
